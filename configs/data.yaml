@@ -1,0 +1,15 @@
+train: C:/path-to-train-images
+val: C:/path-to-val-images
+test: 
+
+nc: 23  # Number of classes
+
+names: [
+  'Pepper_Bacterial_Spot', 'Pepper_Fusarium', 'Corn_Cercospora_Leaf_Spot',
+  'Corn_Common_Rust', 'Tomato_Early_Blight', 'Pepper_Septoria',
+  'Tomato_Septoria', 'Pepper_Leaf_Curl', 'Pepper_Leaf_Mosaic', 'Corn_Streak',
+  'Corn_Healthy', 'Pepper_Healthy', 'Tomato_Healthy', 'Pepper_Late_Blight',
+  'Tomato_Late_Blight', 'Pepper_Cercospora', 'Tomato_Fusarium',
+  'Pepper_Leaf_Blight', 'Tomato_Leaf_Curl', 'Tomato_Bacterial_Spot',
+  'Tomato_Mosaic', 'Pepper_Early_Blight', 'Corn_Northern_Leaf_Blight'
+]
